@@ -1,0 +1,122 @@
+﻿namespace Library
+{
+    internal class ReceiptCustom : Model.IReceipt<string>
+    {
+        public int StoreNo { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public Guid ReceiptId { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public int ReceiptNo { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public string SalesCode { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public DateTime SalesDate { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public string StatusCode { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public int CustomerNo { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public int AddressNo { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public int ShipToCustomerNo { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public int ShipToAddressNo { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public Guid SOId { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public int SOStoreNo { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public int SOShippingId { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public int SONo { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public string SONumber { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public int Flag1 { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public int Flag2 { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public int Flag3 { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public string NoteField { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public string Cashier { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public string DocNumber { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public decimal SubTotal { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public decimal SubTotalWTax { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public DateTime ShippingDate { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public int TaxAreaCode { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public decimal TaxPercent { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public decimal TaxTotal { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public short ShipViaCode { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public decimal ShippingTotal { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public int FeeId { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public decimal FeeTaxPercent { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public decimal FeeTotal { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public decimal FeeTotalWTax { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public decimal FeeTaxAmount { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public decimal PayTotal { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public decimal DiscPercent { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public decimal DiscTotal { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public decimal DiscTotalWTax { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public decimal FCSubTotal { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public decimal FCSubTotalWTax { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public decimal FCTaxTotal { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public decimal FCShippingTotal { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public decimal FCFeeTotal { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public decimal FCFeeTotalWTax { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public decimal FCFeeTaxAmount { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public decimal FCPayTotal { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public decimal FCDiscTotal { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public decimal FCDiscTotalWTax { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public string CreatedBy { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public DateTime CreationDate { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public string ModifiedBy { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public DateTime ChangeDate { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public short LineCount { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public string Version { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public string Notes { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public string Notes2 { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public string Notes3 { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public int WeekId { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public string RegisterId { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public bool VAT { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public byte CurrencyId { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public decimal ExchangeRate { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public bool Invoiced { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public string DocReference { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public int ReverseDocNo { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public bool RewardProcessed { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public bool GLProcessed { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public DateTime GLDate { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public bool DWProcessed { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public DateTime DWDate { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public bool ACCT1Processed { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public DateTime ACCT1Date { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public bool ACCT2Processed { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public DateTime ACCT2Date { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public bool ACCT3Processed { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public DateTime ACCT3Date { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public int SourceStore { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public int LoyaltyPointsEarned { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public string LoyaltyAuthorization { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public string ReasonCode { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public string ManagerOverwrite { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public string ReceiptZipCode { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public decimal TakeBase { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public decimal TakeExchange { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public string Info1 { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public string Info2 { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public string Info3 { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public string Info4 { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public string Info5 { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public string Info6 { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public string Info7 { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public string Info8 { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public string Info9 { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public string Info10 { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public string Info11 { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public string Info12 { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public bool ManualReceipt { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public string ReferenceId { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public string RegisterSN { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public int ZOutNo { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public string CustomerEmail { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public bool EReceipt { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public string EReceiptInfo { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public string CustomerCampaign { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public bool RemoteSale { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public string OriginalCustomerData { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public byte PollStatusCode { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public byte ResetPollStatusCode { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public bool HQHistory { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public List<string> ReceiptLine { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+
+
+
+      //customizados
+       public string FechaX { get; set; }
+        public DataSet ReceiptTender { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+    }
+}

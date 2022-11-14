@@ -121,5 +121,14 @@ namespace Library
          var obj = Functions.ToDynamic(dataSet.Tables[0]);
          return obj;
       }
+
+
+      public void ApiLogin(string sEmployeeCode, string sPassword)
+      {
+         string conexion = "uid=RetailUser;password=retail;database=RetailData;server=127.0.0.1;Connect Timeout=180;pooling=false";
+         DataSet dataSet = DataAccess.GetDataSetQry(conexion, "SELECT * FROM EMPLOYEE WHERE EmployeeCode = '" + sEmployeeCode +"' and Password = '" + sPassword + "'");
+         if (dataSet == null) throw new Exception("No existe empleado");
+         if (dataSet.Tables[0].Rows.Count == 0) throw new Exception("No existe empleado");
+      }
    }
 }

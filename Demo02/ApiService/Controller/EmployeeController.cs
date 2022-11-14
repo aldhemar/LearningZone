@@ -26,6 +26,8 @@
       [Route("")]
       public dynamic Crear([FromBody] Employee employee)
       {
+         oEmployee = new();
+         oEmployee.Post(employee);
          return employee;
       }
 
@@ -33,6 +35,8 @@
       [Route("")]
       public dynamic Editar([FromBody] Employee employee)
       {
+         oEmployee = new();
+         oEmployee.Put(employee);
          return employee;
       }
 
